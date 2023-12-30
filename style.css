@@ -66,7 +66,7 @@ nav a {
 
 .logo {
     margin-left: auto;
-    margin-right: 20px; /* Adjust the margin as needed */
+    margin-right: 20px;
 }
 
 .hero {
@@ -81,7 +81,7 @@ nav a {
 .caption {
     position: absolute;
     top: 50%;
-    left: 25%; /* Adjust the left positioning as needed */
+    left: 25%; 
     transform: translate(-50%, -50%);
     text-align: left;
     color: #fff;
@@ -101,7 +101,6 @@ nav a {
 
 .caption p {
     font-size: 1.5em;
-    margin-bottom: 50px;
     font-size: 14px;
     color: #FFF;
     font-family: Merriweather;
@@ -117,7 +116,7 @@ nav a {
 }
 
 .underline {
-    width: 100px; /* Adjust the width as needed */
+    width: 100px; 
     height: 2px;
     background-color: red;
     margin-bottom: 10px;
@@ -125,7 +124,6 @@ nav a {
 
 .sub-caption {
     font-size: 1.5em;
-    margin-bottom: 0px;
     color: rgb(245, 245, 245);
 }
 
@@ -139,10 +137,10 @@ nav a {
     text-decoration: none;
     font-size: 1.2em;
     position: absolute;
-    top: 70%; /* Adjust the vertical positioning as needed */
+    top: 70%; 
     left: 17%;
     transform: translate(-50%, -50%);
-    z-index: 1; /* Ensure the buttons are above the image */
+    z-index: 1; 
 }
 
 .buttons .btn.free-consultation {
@@ -153,4 +151,128 @@ nav a {
     background-color: transparent;
     border: 2px solid #fff;
     margin-left: 200px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.service-container {
+    background-color: #F9F9F9;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px;
+    width: 290px;
+    height: 254px;
+    flex-shrink: 0;
+}
+
+.service-container i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #2d2d2d; 
+}
+
+.service-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-container p {
+    font-size: 1em;
+    color: #555;
+}
+
+.about-us {
+    margin-top: 50px;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns, each occupying 50% of the space */
+    gap: 20px; /* Add some gap between the items */
+}
+
+.about-image img {
+    width: 100%; /* Make the image fill its container */
+    height: auto;
+}
+
+.experience-highlight {
+    color: red;
+}
+
+.about-content h1 {
+    color: #000;
+    font-family: Merriweather;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-content p {
+    color: #6C6C6C;
+
+   font-family: Merriweather;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-column {
+    list-style-type: none; 
+}
+
+.about-item {
+    margin-bottom: 15px;
+    margin: 15px;
+}
+
+.about-item input {
+    margin-right: 10px; /* Add spacing between checkbox and label */
+}
+
+.free_con {
+    background-color: #C82424;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.free_con:hover {
+    background-color: #a9240d;
+    cursor: pointer;
+}
+
+#point {
+    margin-bottom: 20px;
+}
+
+.aboutp {
+    width: 72px;
+    height: 25px;
+    flex-shrink: 0;
+    color: #6C6C6C;
+    font-family: Merriweather;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
