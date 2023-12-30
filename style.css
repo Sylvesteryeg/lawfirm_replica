@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fffcfc;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header a {
+    color: #2e2e2e;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.schedule-button {
+    background-color: #a9240d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 1px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+section {
+    padding: 0px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    color: #0b0b0b;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+nav a {
+    color: #222222;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 25%; /* Adjust the left positioning as needed */
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #fff;
+}
+
+.caption h1 {
+    margin-bottom: 20px;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 348px;
+    height: 63px;
+    flex-shrink: 0;
+}
+
+.caption p {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    font-size: 14px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 437px;
+    height: 72px;
+    top: 372px;
+    left: 30px;
+
+}
+
+.underline {
+    width: 100px; /* Adjust the width as needed */
+    height: 2px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.sub-caption {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    color: rgb(245, 245, 245);
+}
+
+.buttons .btn {
+    margin-right: 10px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    position: absolute;
+    top: 70%; /* Adjust the vertical positioning as needed */
+    left: 17%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the buttons are above the image */
+}
+
+.buttons .btn.free-consultation {
+    background-color: red;
+}
+
+.buttons .btn.learn-more {
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-left: 200px;
+}
