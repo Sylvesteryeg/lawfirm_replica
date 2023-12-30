@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -202,6 +206,7 @@ nav a {
 .about-image img {
     width: 100%; 
     height: auto;
+    margin-right: 10px;
 }
 
 .experience-highlight {
@@ -275,4 +280,88 @@ nav a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+/* Video section styles */
+.video-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 20px;
+    background-color: #fffefe;
+}
+
+.video-content {
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 800px;
+    padding-top: 50px;
+    background-color: #C82424;
+    width: 652px;
+    height: 480px;
+    align-content: center;
+}
+
+.video-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-right: 20px;
+
+}
+
+.video-content p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #F4D3D5;
+    font-family: Merriweather;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 520px;
+    margin-left: 30px;
+}
+
+.video-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.signature {
+    width: 96px;
+    height: 39px;
+    flex-shrink: 0;
+    margin-left: 35px;
+}
+
+.ant {
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+
+}
+
+.sen {
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+
 }
