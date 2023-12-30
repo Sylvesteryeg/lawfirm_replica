@@ -195,12 +195,12 @@ nav a {
 
 .about-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns, each occupying 50% of the space */
-    gap: 20px; /* Add some gap between the items */
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
 }
 
 .about-image img {
-    width: 100%; /* Make the image fill its container */
+    width: 100%; 
     height: auto;
 }
 
@@ -242,7 +242,7 @@ nav a {
 }
 
 .about-item input {
-    margin-right: 10px; /* Add spacing between checkbox and label */
+    margin-right: 10px;
 }
 
 .free_con {
