@@ -44,15 +44,6 @@ section {
     padding: 0px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 
 nav {
     color: #0b0b0b;
@@ -69,8 +60,10 @@ nav a {
 }
 
 .logo {
-    margin-left: auto;
     margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    
 }
 
 .hero {
@@ -157,6 +150,8 @@ nav a {
     margin-left: 200px;
 }
 
+ /***** services Section *****/
+
 .services {
     display: flex;
     justify-content: space-around;
@@ -192,6 +187,8 @@ nav a {
     font-size: 1em;
     color: #555;
 }
+
+ /***** About Section *****/
 
 .about-us {
     margin-top: 50px;
@@ -291,16 +288,17 @@ nav a {
 }
 
 .video-content {
-    padding: 0 20px;
+    padding: 0px;
 }
 
 .container {
-    max-width: 800px;
-    padding-top: 50px;
+    max-width: 860px;
+    padding-top: 40px;
     background-color: #C82424;
-    width: 652px;
-    height: 480px;
+    width: 800px;
+    height: 450px;
     align-content: center;
+    margin-top: 10px;
 }
 
 .video-content h2 {
